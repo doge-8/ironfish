@@ -4,6 +4,8 @@ https://github.com/doge-8/ironfish/releases/download/1.0/ironfish-node-use.bat
 
 现在图形化钱包还没出来，有很多小白不知道如何使用主网钱包，现在安装完成win版本的主网节点后就可以使用，只需打开输入数字键就可使用，方便小白操作!
 
+主网节点安装方法可参考官网链接：https://ironfish.network/use/get-started/installation
+
 功能如图所示：
 
 
