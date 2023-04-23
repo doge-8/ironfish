@@ -9,4 +9,5 @@ https://github.com/doge-8/ironfish-use/releases/download/1.0/ironfish-use.bat
 功能如图所示：
 
 
-<img width="480" alt="image" src="https://user-images.githubusercontent.com/84656053/233825312-990e5624-7a8a-4b02-98b0-b0e00e52ff04.png">
+<img width="688" alt="image" src="https://user-images.githubusercontent.com/84656053/233825630-4524f7d0-3dc7-487e-98b0-89aa9308136a.png">
+
