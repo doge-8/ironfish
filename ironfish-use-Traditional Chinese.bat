@@ -25,6 +25,7 @@ echo 7. 導入錢包（導入後請記得切換錢包）
 echo 8. 切換錢包
 echo 9. 轉帳
 echo 10. 錢包修復（錢包餘額顯示不正常時使用）
+echo 11. 更新主網節點
 
 set /p choice=請輸入選項編號:
 
@@ -66,6 +67,17 @@ if "%choice%"=="1" (
   echo 正在修復錢包...
   ironfish wallet:rescan
   pause
+) else if "%choice%"=="11" (
+  set /p confirm=您確定要更新主網節點嗎？[Y/N]
+  if /i "%confirm%"=="Y" (
+    echo 正在更新主網節點...
+    npm install -g ironfish
+    pause
+  ) else (
+    echo 取消更新主网节点。
+    pause
+  )
+)
 ) else (
   echo 選項 %choice% 無效，請重新選擇。
   goto menu
